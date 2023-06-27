@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<div class="majorContainer">
+    <div class="topLine">
+        <img src="https://images.unsplash.com/photo-1606036685180-d6187349ab23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3001&q=80" alt=""
+        class="pic1" />
+       <div class="textDiv">
+       <p> welcome to geography ace!</p>
+       <p> test your knowledge of geography!  &#9997;</p>
+       <p> compete against a friend! &#10003;</p>
+       <button onclick="moreInfo()">Click me for info</button>
+       <div class="infoDiv">
+
+       </div>
+       
+       <p class="moreText">
+        <div class="lowerTextHere"></div>
+       </p>
+       </div>
+       <!--I have some functions sprinkled in for right and wrong answers! and a hint function for the bonus-->
+       <!-- Welcome to the beginning of the questions-->
+       <p> On what continent is the country kenya located in? (Q1)</p>
+       <p> Player 1 options:</p>
+       <button onclick="playerFunction1()">Africa</button>
+       <button onclick="incorrectAnsw()">asia</button>
+       <button onclick="incorrectAnsw()">north america</button>
+       <hr> 
+       <p>Player 2 options:</p>
+       <button onclick="playerFunction2()">Africa</button>
+       <button onclick="incorrectAnsw()">asia</button>
+       <button onclick="incorrectAnsw()">north america</button>
+       <button onclick="helpImage()">click me for a help image!</button>
+       <div class="imageDiv"></div>
+       <hr>
+       <hr>
+       <!-- Welcome to question2 welcome to q2 welcome to q2-->
+       <p> In what part of Canada is the city of toronto located? (Q2)</p>
+       <p> Player 1 options:</p>
+       <button onclick="playerFunction1()">Ontario</button>
+       <button onclick="incorrectAnsw()">Manitoba</button>
+       <button onclick="incorrectAnsw()">British Columbia</button>
+       
+       <hr>
+       <p> Player 2 options:</p>
+       <button onclick="playerFunction2()">Ontario</button>
+       <button onclick="incorrectAnsw()">Manitoba</button>
+       <button onclick="incorrectAnsw()"></button>
+       <hr>
+       <hr>
+<!-- Welcome to question3 welcome to q3 welcome to q3-->
+       <p>The city of Merida is in what country? (Q3)</p>
+       <p> Player 1 options:</p>
+       <button onclick="playerFunction1()">Mexico</button>
+       <button onclick="incorrectAnsw()">Greece</button>
+       <button onclick="incorrectAnsw()">italy</button>
+       <hr>
+       <p> Player 2 options:</p>
+       <button onclick="playerFunction2()">Mexico</button>
+       <button onclick="incorrectAnsw()">Greece</button>
+       <button onclick="incorrectAnsw()">italy</button>
+       <hr>
+       <hr>
+       <!-- Welcome to question4 welcome to q4 welcome to q4-->
+       <p>The city of florence is in what country? (Q4)</p>
+       <p> Player 1 options:</p>
+       <button onclick="playerFunction1()">italy</button>
+       <button onclick="incorrectAnsw()">belgium</button>
+       <button onclick="incorrectAnsw()">france</button>
+       <hr>
+       <p> Player 2 options:</p>
+       <button onclick="incorrectAnsw()">belgium</button>
+       <button onclick="playerFunction2()">italy</button>
+       <button onclick="incorrectAnsw()">france</button>
+       <hr>
+       <hr>
+       <!-- Welcome to question 5 welcome to q5 welcome to q5-->
+       <p>What is the name of the bay between VA and MD (Q5)</p>
+       <p> Player 1 options:</p>
+       <button onclick="playerFunction1()">chesapeake</button>
+       <button onclick="incorrectAnsw()">green</button>
+       <button onclick="incorrectAnsw()">salt</button>
+       <hr>
+       <p> Player 2 options:</p>
+       <button onclick="playerFunction2()">chesapeake</button>
+       <button onclick="incorrectAnsw()">green</button>
+       <button onclick="incorrectAnsw()">salt</button>
+   <hr>
+       <hr>
+       <!-- Welcome to question 6 welcome to q6 welcome to q6-->
+       <p>What continent is the cape of good Hope Located on?(Q6)</p>
+       <p> Player 1 options:</p>
+       <button onclick="incorrectAnsw()">australia</button>
+       <button onclick="incorrectAnsw()">North America</button>
+       <button onclick="playerFunction1()"> Africa</button>
+       <hr>
+       <p> Player 2 options:</p>
+       <button onclick="incorrectAnsw()">australia</button>
+       <button onclick="incorrectAnsw()">North America</button>
+       <button onclick="playerFunction2()">Afria</button>
+       <hr>
+       <hr>
+
+       <!-- Welcome to question 67 welcome to q7 welcome to q7-->
+       <p>In what Ocean are the hawiian islands found?(Q7)</p>
+       <p> Player 1 options:</p>
+       <button onclick="incorrectAnsw()">indian</button>
+       <button onclick="playerFunction1()">Pacific</button>
+       <button onclick="incorrectAnsw()">atlantic</button>
+       <hr>
+       <p> Player 2 options:</p>
+       <button onclick="incorrectAnsw()">atlantic</button>
+       <button onclick="incorrectAnsw()">india</button>
+       <button onclick="playerFunction2()">pacific</button>
+       <hr>
+       <hr>
+       <p class="bonusQuestion"> This next question is a bonus, It has double the value of a normal question!</p>
+       <p> The human population of the country India is more than that of the USA.
+       <p> If you need a hint click below!</p>
+        <button onclick="hintHelp()">Hint??</button>
+        <p>Player1 options:</p>
+        <button>true</button>
+        <button>false</button>
+        <hr>
+        <p> Player2</p>
+        <button>true</button>
+        <button>false</button>
+        <hr>
+        <hr>
+       
+        <p> Check your personalized score card below!</p>
+        <div class="lowerMajorContainer">
+            <div class="playerOneScoreCard">
+                <p> Player1:</p>
+                <p>questions answered: <span class="questionsAnswered"></span></p>
+                <p>points earned: <span class="pointsEarned"></span></p>
+
+                 <!-- Welcome to the results part welcome to results welcome to results-->
+                
+
+            </div>
+            <div class="playerTwoScoreCard">
+                <p>Player2:</p>
+                <p>questions answered:<span class="questionsAnsweredTwo"></span></p>
+                <p>points earned: <span class="pointsEarnedTwo"></span></p>
+
+            </div>
+
+        </div>
+       </div>
+
+
+       
+
+       </div>
+       
+    </div>
+   
+
+</div>
+
+
+	<script src="script.js"></script>
+  </body>
+</html>
