@@ -50,7 +50,23 @@ const playerFunction2=()=>{
 
 
 }
+//this function determines the current winner//
 
+const currentWinner=()=>{
+    let currentPoint=document.querySelector('.winnerDiv')
+    if(pointValue1>pointValue2){
+        currentPoint.innerHTML=" player one is in the lead with "+pointValue1+ "points!";
+    }
+    else{
+        currentPoint.innerHTML=" player two is in the lead with "+pointValue2+ "points!";
+
+    }
+
+
+    
+
+}
+    
 
 
 
