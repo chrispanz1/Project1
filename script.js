@@ -57,6 +57,9 @@ const currentWinner=()=>{
     if(pointValue1>pointValue2){
         currentPoint.innerHTML=" player one is in the lead with "+pointValue1+ "points!";
     }
+    else if(pointValue1===pointValue2){
+        currentPoint.innerHTML='Its a tie game!'
+    }
     else{
         currentPoint.innerHTML=" player two is in the lead with "+pointValue2+ "points!";
 
