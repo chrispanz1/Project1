@@ -12,7 +12,7 @@ const helpImage=()=>{
 //lets write a rough sketch of functions that will be needed!//
 
 const hintHelp=()=>{
-    alert("think logically about world trends!")
+    alert("the old line state!")
 }
 // Major functionality will begin down here with these two functions!//
 
@@ -85,6 +85,12 @@ const endWinner=()=>{
         location.reload()
     }
     
+}
+const funGame=()=>{
+    alert("glad you enjoyed it!")
+}
+const noFunGame=()=>{
+    alert("what can we improve on?")
 }
 
 
