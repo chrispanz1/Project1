@@ -19,7 +19,7 @@ const hintHelp=()=>{
 let bonusQuestion=10;
 let questionAnsweredOne=0;
 let questionAnsweredTwo=0;
-
+//more queryselector stuff here//
 let questionAnsweredContainer=document.querySelector('.questionsAnswered')
 let pointsEarnedContainer=document.querySelector('.pointsEarned')
 
