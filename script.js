@@ -2,6 +2,7 @@ const moreInfo=()=>{
     let info=document.querySelector('.infoDiv')
 info.innerHTML=" answer the following questions to get started! each correct answer is +1point,wrong answers count as 0 points!";
 }
+//here we create a new image here//
 const helpImage=()=>{
     let imageContainer=document.querySelector('.imageDiv')
     let imgTag=document.createElement('img')
@@ -32,7 +33,7 @@ const playerFunction1=()=>{
     questionAnsweredOne++;
     pointValue1+=5;
 
-    
+    //declare variables above//
     
     questionAnsweredContainer.innerHTML=questionAnsweredOne;
     pointsEarnedContainer.innerHTML=pointValue1
