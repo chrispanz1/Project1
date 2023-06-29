@@ -65,11 +65,29 @@ const currentWinner=()=>{
         currentPoint.innerHTML=" player two is in the lead with "+pointValue2+ "points!";
 
     }
+//lets put in a function for the end winner//
+        
+setTimeout(currentWinner,1000)
 
 
     
 
 }
+const endWinner=()=>{
+    
+
+    if(pointValue1>=35){
+        alert("player 1 has won!")
+        location.reload()
+    }
+    else if(pointValue2>=35){
+        alert("player 2 has won!")
+        location.reload()
+    }
+    
+}
+
+
     
 
 
