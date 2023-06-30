@@ -94,15 +94,6 @@ const noFunGame=()=>{
 }
 
 
-    
-
-
-
-
-
-
-
-
 
 
 // A wrong answer awards 0 points, however we still increment # of questions answered!//
